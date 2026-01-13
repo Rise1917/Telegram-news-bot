@@ -32,7 +32,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. Replace bot token in `Бот.py` file on line 11:
+4. Replace bot token in `Bot.py` file on line 11:
 ```python
 bot = telebot.TeleBot('YOUR_BOT_TOKEN', skip_pending=True)
 ```
@@ -40,12 +40,12 @@ bot = telebot.TeleBot('YOUR_BOT_TOKEN', skip_pending=True)
 ### Usage
 
 ```bash
-python Бот.py
+python Bot.py
 ```
 
 ### Project Structure
 
-- `Бот.py` - Main bot file
+- `Bot.py` - Main bot file
 - `test.py - test8.py` - News parsing modules
 - `data/*.json` - News data files
 - `текст/` - Additional files and documentation
@@ -87,7 +87,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. Замените токен бота в файле `Бот.py` на строке 11:
+4. Замените токен бота в файле `Bot.py` на строке 11:
 ```python
 bot = telebot.TeleBot('ВАШ_ТОКЕН_БОТА', skip_pending=True)
 ```
@@ -95,12 +95,12 @@ bot = telebot.TeleBot('ВАШ_ТОКЕН_БОТА', skip_pending=True)
 ### Запуск
 
 ```bash
-python Бот.py
+python Bot.py
 ```
 
 ### Структура проекта
 
-- `Бот.py` - Основной файл бота
+- `Bot.py` - Основной файл бота
 - `test.py - test8.py` - Модули парсинга новостей
 - `data/*.json` - Файлы с данными новостей
 - `текст/` - Дополнительные файлы и документация
