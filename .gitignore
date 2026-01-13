@@ -1,0 +1,38 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Text files and documentation
+текст/
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Temporary files
+*.tmp
+*.temp
+
+# Bot token (security)
+config.json
+token.txt
+git_commands.txt

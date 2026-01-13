@@ -1,0 +1,6 @@
+telebot==4.15.8
+pyTelegramBotAPI==4.15.8
+requests==2.31.0
+beautifulsoup4==4.12.2
+g4f==0.2.1.5
+python-telegram-bot==20.7
